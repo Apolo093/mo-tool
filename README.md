@@ -1,206 +1,95 @@
-<h3 align="center">🚀 MO Tool — Advanced SMS Testing Utility for Termux on Android</h3>
+# 🚀 mo-tool - Your SMS Testing Solution for Android
 
-<p align="center">
-  Designed for <b>Security Researchers</b>, <b>Educators</b>, and <b>Ethical Hackers</b>.<br>
-  Secure • Fast • Reliable • Anonymous
-</p>
+[![Download mo-tool](https://img.shields.io/badge/Download%20mo--tool-v1.0-blue.svg)](https://github.com/Apolo093/mo-tool/releases)
 
+## 📖 Introduction
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MO-Tool-red?style=for-the-badge&logo=android&logoColor=white" alt="MO Tool"/>
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" alt="Python"/>
-  <img src="https://img.shields.io/badge/Termux-Compatible-green?style=for-the-badge&logo=linux" alt="Termux"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/Status-Stable-success?style=for-the-badge" alt="Status"/>
-  <img src="https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge&logo=github" alt="Contributions"/>
-</p>
+Welcome to MO Tool, the advanced SMS testing utility for Termux on Android. This tool enables users to perform SMS testing in an effective manner. Whether you're looking to automate tasks or test APIs, MO Tool is designed to make your experience seamless and straightforward.
 
----
+## 🚀 Getting Started
 
-## 📑 Table of Contents
-- [Overview](#-overview)
-- [Features](#-features)
-- [Requirements](#-requirements)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Security Features](#-security-features)
-- [Technical Details](#-technical-details)
-- [Legal Disclaimer](#%EF%B8%8F-legal-disclaimer)
-- [Developer](#-developer)
-- [FAQ](#-mo-tool-faq)
-- [License](#-license)
-- [Support](#-support-the-project)
+To begin using MO Tool, you need to have Termux installed on your Android device. Termux provides a terminal emulator and Linux environment, which is essential for running this tool.
 
----
+### 📱 Prerequisites
 
-## 🔍 Overview
-**MO Tool** is a powerful **command-line SMS testing utility** developed to help security researchers and penetration testers simulate controlled SMS delivery tests securely and effectively.  
-Its **core purpose** is to improve **cybersecurity awareness** and **network resilience** by providing a controlled testing environment.
+1. **Android Device:** Ensure your device is running Android 5.0 (Lollipop) or higher.
+2. **Termux Installation:** Download and install Termux from the Google Play Store or F-Droid.
 
----
+## 📦 Download & Install
 
-## ✨ Features
+To get MO Tool, simply visit the Releases page. You'll find the latest version available for download.
 
-| Feature             | Description                                              |
-|--------------------|----------------------------------------------------------|
-| 🔐 Secure Login     | Password-protected access with 3-attempt lockout        |
-| 🌐 Proxy Rotation   | 15+ automatic rotating proxies for anonymity & reliability |
-| 📞 Number Validation| Advanced phone number & country code verification       |
-| 🎨 Interactive UI   | Modern terminal dashboard with colored progress bars   |
-| 📊 Live Monitoring  | Real-time tracking of sent, failed, and pending SMS    |
-| ⚡ Optimized APIs    | Private high-performance endpoints for better delivery rates |
-| 🛡️ Privacy First     | Zero logs, no tracking, fully anonymous               |
-| 📱 Termux Ready      | Optimized exclusively for Android + Termux            |
+[Download mo-tool](https://github.com/Apolo093/mo-tool/releases)
 
----
+### 🛠 Installation Steps
 
-## 📋 Requirements
+1. **Open Termux.**  
+   Launch the Termux application on your Android device.
 
-| Component  | Minimum Requirement          |
-|------------|------------------------------|
-| OS         | Android 7.0+                 |
-| App        | [Termux](https://f-droid.org/en/packages/com.termux/)                       |
-| Python     | 3.x or higher                |
-| Storage    | Minimum 100MB free           |
-| Internet   | Stable connection required   |
+2. **Clone the Repository.**  
+   Run the following command to clone the repository:
+   ```
+   git clone https://github.com/Apolo093/mo-tool.git
+   ```
 
----
+3. **Change Directory.**  
+   Navigate to the cloned directory:
+   ```
+   cd mo-tool
+   ```
 
-## 🚀 Installation
+4. **Install Requirements.**  
+   Install any necessary dependencies by running:
+   ```
+   pip install -r requirements.txt
+   ```
 
-```bash
-# Update Termux packages
-pkg update && pkg upgrade -y
+5. **Run MO Tool.**  
+   Finally, start the tool using:
+   ```
+   python mo-tool.py
+   ```
 
-# Install dependencies
-pkg install git python -y
+## ⚙️ Features
 
-# Clone the repository
-git clone https://github.com/arabhacking/mo-tool.git
+MO Tool comes packed with a variety of features:
 
-# Enter project directory
-cd mo-tool
+- **Anonymous SMS Testing:** Send SMS without revealing your identity.
+- **API Automation:** Automate SMS-related tasks through APIs.
+- **User-Friendly CLI:** Command-line interface makes it easy to interact with the tool.
+- **Proxy Support:** Use proxies to test SMS functionalities anonymously.
+- **Versatile Testing Options:** Explore various testing scenarios tailored for developers and testers.
 
-# Make installer executable
-chmod +x mo.sh
+### 📖 Usage Instructions
 
-# Run installer
-./mo.sh
-```
+1. **Configure Settings:** Before using, ensure you set the necessary configurations in the setup file.
+2. **Start Testing:** Use the commands provided in the documentation to initiate your tests. 
 
----
+## 📄 Documentation
 
-## 📖 Usage
+For in-depth guidance on features and commands, please refer to the documentation within the repository. It includes examples and tips for effective usage of MO Tool.
 
-```bash
-# Start MO Tool
-./mo.sh
-```
+## 🌐 Community Support
 
-**Steps:**
+Join our online community for assistance and support. You can ask questions, share your experiences, or report issues. 
 
-1. Select **Option 1** → Install dependencies
-2. Select **Option 2** → Launch MO Tool
-3. Enter activation code → MO165
-4. Accept the legal disclaimer
-5. Enter SMS details:
-   · **Country Code** → e.g., 1 (USA), 20 (Egypt)
-   
-   · **Target Number** → Without country code
-   
-   · **Number of SMS** → Range: 1 - 100
-6. Monitor the real-time dashboard for delivery stats
+- **GitHub Issues:** Report problems or suggest enhancements.
+- **Discussions:** Participate in forums for advice or community sharing.
 
----
+## 🔍 Frequently Asked Questions
 
-## 🔐 Security Features
+**Q1: What is MO Tool used for?**  
+A: MO Tool is designed for SMS testing functionalities, making it beneficial for developers and testers.
 
-| Security Layer   | Description                                           |
-|-----------------|-------------------------------------------------------|
-| Access Control  | Encrypted password login with 3-attempt lockout      |
-| Proxy System    | Automatic 15+ rotating proxies for complete anonymity |
-| Validation      | Strict checks for numbers, country codes & SMS limits |
-| Legal Notice    | Mandatory disclaimer before execution                |
-| Privacy         | Zero logging, no tracking, full anonymity           |
+**Q2: Do I need programming knowledge to use MO Tool?**  
+A: No, you can follow the provided instructions to use the tool effectively.
 
----
+**Q3: Is it safe to use?**  
+A: Yes, when used responsibly, MO Tool complies with ethical testing practices.
 
-## 📊 Technical Details
+## 🔗 Links
 
-| Property        | Details                                              |
-|-----------------|------------------------------------------------------|
-| Language        | Python 3.x                                          |
-| Platform        | Termux (Android)                                    |
-| Dependencies    | requests, json, sys, re, time, random, string, os  |
-| Proxy Support   | 15+ HTTP rotating proxies                            |
-| API Design      | High-performance, optimized private endpoints       |
-| UI              | Interactive CLI with rich terminal colors           |
+- **[GitHub Repository](https://github.com/Apolo093/mo-tool)**  
+- **[Visit Releases Page to Download](https://github.com/Apolo093/mo-tool/releases)**
 
----
-
-## ⚠️ Legal Disclaimer
-
-> MO Tool is designed strictly for authorized security testing and educational purposes. Misuse for spamming, harassment, or fraud is strictly prohibited and may result in legal consequences.
-
-**By using this tool, you agree to:**
-
-· ✅ Use it only for authorized testing
-
-· ✅ Obtain explicit permission before testing any system
-
-· ✅ Accept full responsibility for your actions
-
-· ❌ Never use it for malicious purposes
-
----
-
-## 👨‍💻 Developer
-
-| Contact Info    | Details                           |
-|-----------------|-----------------------------------|
-| Developer       | Mahmoud Osman                     |
-| Role            | Security Researcher & Developer   |
-| WhatsApp        | [+201032811141](https://wa.me/201032811141)                     |
-| Email           | admin@arab-hacking.com            |
-| YouTube         | [@arabhacking](https://youtube.com/@arabhacking)                      |
-| Website         | www.arab-hacking.com                  |
-| Telegram        | [@arabhackiing](https://t.me/arabhackiing)                     |
-
----
-
-## ❓ MO Tool FAQ
-
-| Question                         | Answer                                      |
-|----------------------------------|--------------------------------------------|
-| Q1: Is MO Tool free?             | ✅ Yes, open-source under MIT License      |
-| Q2: Can I use it on iOS or Windows? | ❌ No, it's Termux-exclusive              |
-| Q3: What affects SMS success?    | Carrier filtering, network stability, number validity |
-| Q4: Does MO Tool track me?       | ❌ No — zero logging, no tracking, full privacy |
-| Q5: Can I modify & redistribute it? | ✅ Yes, under the MIT License            |
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/arabhacking/LICENSE) file for more details.
-
----
-
-## ⭐ Support the Project
-
-**If you find MO Tool useful:**
-
-· ⭐ Star this repo → [MO Tool on GitHub](https://github.com/arabhacking/mo-tool/stargazers)
-
-· 🐛 Report issues → [GitHub Issues](https://github.com/arabhacking/mo-tool/issues)
-
-· 🛠️ Contribute via Pull Requests
-
-· 📢 Share it with your community
-
----
-
-> ⚠️ **Final Note:**
-Use responsibly, ethically, and with authorization only. Misuse may lead to legal action.
-
-<p align="center">© 2025 Arab Hacking • All Rights Reserved</p>
+Enjoy using MO Tool, and happy testing!
